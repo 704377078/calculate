@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery-1.11.3.js" type="text/javascript"></script>
+    <script type="text/javascript" src="calculate.js"></script>
+
+    <link href="calculate.css" type="text/css" rel="stylesheet">
+    <title>计算器</title>
+</head>
+
+<body>
+<div class="main">
+    <div class="show">
+        <div class="show_s"></div>
+    </div>
+    <div class="keyboard">
+        <table>
+            <tr>
+                <td id="key_c"  onclick="cleartext()">c</td>
+                <td onclick="deltext()">d</td>
+                <td onclick="divide100text()">%</td>
+                <td onclick="dividetext()">/</td>
+            </tr>
+            <tr>
+                <td  onclick="changetext(7)">7</td>
+                <td  onclick="changetext(8)">8</td>
+                <td  onclick="changetext(9)">9</td>
+                <td onclick="timestext()">*</td>
+            </tr>
+            <tr>
+                <td  onclick="changetext(4)">4</td>
+                <td  onclick="changetext(5)">5</td>
+                <td  onclick="changetext(6)">6</td>
+                <td onclick="minustext()">-</td>
+            </tr>
+            <tr>
+                <td  onclick="changetext(1)">1</td>
+                <td  onclick="changetext(2)">2</td>
+                <td  onclick="changetext(3)">3</td>
+                <td onclick="plustext()">+</td>
+            </tr>
+            <tr>
+                <td  onclick="changetext(0)">0</td>
+                <td onclick="changetext('.')">.</td>
+                <td class="result" colspan="2" onclick="showresult()">=</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 500px;
+    width: 300px;
+    background: black;
+    color: white;
+}
+.show{
+    height:150px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.show_s{
+    position: relative;
+    left: 0;
+    top: 120px;
+    direction: rtl;
+    height:auto;
+    width:300px;
+    font-size: 32px;
+
+}
+.keyboard{
+    height: 70%;
+    font-size: 40px;
+    position: relative;
+    top: 30%;
+}
+table{
+
+}
+tr,td{
+    width:75px;
+    height:64px;
+    padding: 2px;
+    background-color: #21292b;
+    text-align: center;
+}
+.result{
+    color: forestgreen;
+}
